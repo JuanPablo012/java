@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+  body{
+    background-image: url(../imagenes/champion.jpg);   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden; 
+    }
+    .Contenedor{
+        width: 90%;
+        max-width: 1520px;
+        margin: auto 80px;
+ 
+    }
+.Contenedor .nav .btn-primary{
+    background-color: red;
+    border-color: rgba(255, 255, 255, 0);
+    margin: auto 20px;
+
+}
+
+
+.Contenedor .nav{
+
+    width: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: -5%;
+    max-width: 600px;
+   display: block;
+
+}
+
+
+    #first{
+        /*width: 1200px;
+        max-width: 100%;
+        margin: auto;*/
+    }
+    #first h5{
+        font-size: 50px;
+        font-weight: bold;
+        -webkit-text-stroke: 2px black;
+    }
+
+    #second{
+        margin: auto;
+        background-color: rgba(255, 255, 255, .5);
+        /*width: 1200px;
+        max-width: 100%;*/
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+#form{
+    margin: auto;
+
+}
+
+
+#name{
+    width: 180px;
+}
